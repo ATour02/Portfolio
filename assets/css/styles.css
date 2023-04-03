@@ -3,6 +3,10 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f6c9c9;
+    background-image: url(../../public/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
   .container {
     max-width: 960px;
@@ -47,7 +51,7 @@ p {
     display: block;
     margin: 40px auto;
     max-width: 100%;
-    height: auto;
+    height: 300px;
     border-radius: 50%;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
   }
